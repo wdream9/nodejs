@@ -10,7 +10,7 @@ const app = express()
 
 app.use('/public',express.static('./public'))
 app.use('/static',express.static('./static'))
-app.use('/sample',express.static('./sample'))
+app.use('/samples',express.static('./sample'))
 
 
 
